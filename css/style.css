@@ -1,0 +1,250 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1E201E !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'comic sans ms';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'comic sans ms';
+    color: #ECDFCC;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #1E201E;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card {
+    width: 100%; 
+    background: #2C2C2C;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+section img {
+    width: 300px; 
+    height: auto; 
+    /* margin-right: 20px;  */
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white !important;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-family: 'comic sans ms';
+}
+
+a.tbl-putih{
+    background-color: #ECDFCc !important;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+a.tbl-putih:hover{
+    background-color: #697565 !important;
+    color: white;
+    text-decoration: none;
+}
+
+div .about img {
+    height: 80%;
+    width: auto;
+}
+
+.kontak {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 17px;
+
+}
+
+.kontak h2, .kontak p {
+    text-align: center;
+    color: white;
+}
+.kontak h2 {
+    color: white;
+}
+
+.kontak p {
+    color: white;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin: 20px 0; 
+}
+
+.contact-icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: transform 0.3s ease; 
+}
+
+.contact-icons img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.contact-icons a:hover {
+    transform: scale(1.1); 
+}
+
+.contact-icons a:hover img {
+    opacity: 0.8; 
+}
+
+h5{
+    color: white;
+}
+
+h3{
+    color: white !important;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+  
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+#modal-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+  
+#modal-text {
+    font-size: 1rem;
+}
+
+.kolom{
+    margin-top: 40px;
+    /* margin-left: 150px; */
+}
+
+.kolom img{
+    width: 400px; 
+    height: auto; 
+    margin-top: 0;
+}
